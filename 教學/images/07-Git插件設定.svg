@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="470" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">Git 插件設定：只改這幾項（其餘維持預設）</text>
+  <g font-size="14">
+    <rect x="30" y="60" width="820" height="36" fill="#F6F8FA" stroke="#D0D7DE"/>
+    <text x="46" y="84" font-weight="bold" fill="#1F2328">區塊</text>
+    <text x="170" y="84" font-weight="bold" fill="#1F2328">選項名稱</text>
+    <text x="560" y="84" font-weight="bold" fill="#1F2328">設定值</text>
+
+    <rect x="30" y="96" width="820" height="40" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="46" y="121" fill="#57606A">Automatic</text><text x="170" y="121" fill="#1F2328">Auto commit-and-sync interval (minutes)</text><text x="560" y="121" font-weight="bold" fill="#0969DA">10</text>
+    <rect x="30" y="136" width="820" height="40" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="46" y="161" fill="#57606A">Automatic</text><text x="170" y="161" fill="#1F2328">Commit message on auto commit-and-sync</text><text x="560" y="161" font-weight="bold" fill="#0969DA">{{hostname}} 自動同步 {{date}}</text>
+    <rect x="30" y="176" width="820" height="40" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="46" y="201" fill="#57606A">Commit</text><text x="170" y="201" fill="#1F2328">Commit message on manual commit</text><text x="560" y="201" font-weight="bold" fill="#0969DA">{{hostname}} 手動提交 {{date}}</text>
+    <rect x="30" y="216" width="820" height="40" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="46" y="241" fill="#57606A">Commit</text><text x="170" y="241" fill="#1F2328">List filenames affected by commit in the commit body</text><text x="560" y="241" font-weight="bold" fill="#0969DA">開（建議）</text>
+    <rect x="30" y="256" width="820" height="40" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="46" y="281" fill="#57606A">Sync</text><text x="170" y="281" fill="#1F2328">Pull on startup</text><text x="560" y="281" font-weight="bold" fill="#0969DA">開</text>
+    <rect x="30" y="296" width="820" height="40" fill="#FFF8C5" stroke="#CF222E" stroke-width="2"/>
+    <text x="46" y="321" fill="#57606A">Sync</text><text x="170" y="321" fill="#1F2328">Merge strategy on conflicts</text><text x="560" y="321" font-weight="bold" fill="#CF222E">None (Git default)：不要改</text>
+    <rect x="30" y="336" width="820" height="40" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="46" y="361" fill="#57606A">Sync</text><text x="170" y="361" fill="#1F2328">Push on commit-and-sync／Pull on commit-and-sync</text><text x="560" y="361" font-weight="bold" fill="#0969DA">開（預設）</text>
+  </g>
+  <text x="30" y="410" font-size="14" fill="#1F2328">快捷鍵：設定 → 快速鍵 → 搜尋 Git</text>
+  <text x="30" y="436" font-size="14" fill="#1F2328">Git: Commit-and-sync ＝ Ctrl＋Alt＋S　　Git: Pull ＝ Ctrl＋Alt＋P（Mac 為 Cmd＋Option＋S／P）</text>
+</svg>

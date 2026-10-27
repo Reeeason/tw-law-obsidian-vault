@@ -1,0 +1,117 @@
+{
+ "中華民國刑法": {
+  "short": "刑法",
+  "category": "03-刑事法",
+  "config": "設定/中華民國刑法.json"
+ },
+ "刑事訴訟法": {
+  "short": "刑訴",
+  "category": "03-刑事法",
+  "config": "設定/刑事訴訟法.json"
+ },
+ "民法": {
+  "short": "民法",
+  "category": "02-民事法",
+  "config": "設定/民法.json"
+ },
+ "民事訴訟法": {
+  "short": "民訴",
+  "category": "02-民事法",
+  "config": "設定/民事訴訟法.json"
+ },
+ "家事事件法": {
+  "short": "家事",
+  "category": "02-民事法",
+  "config": "設定/家事事件法.json"
+ },
+ "強制執行法": {
+  "short": "強執",
+  "category": "02-民事法",
+  "config": "設定/強制執行法.json"
+ },
+ "中華民國憲法": {
+  "short": "憲法",
+  "category": "01-公法",
+  "config": "設定/中華民國憲法.json"
+ },
+ "中華民國憲法增修條文": {
+  "short": "增修",
+  "category": "01-公法",
+  "config": "設定/中華民國憲法增修條文.json"
+ },
+ "公司法": {
+  "short": "公司",
+  "category": "04-商事法與智慧財產權法",
+  "config": "設定/公司法.json"
+ },
+ "保險法": {
+  "short": "保險",
+  "category": "04-商事法與智慧財產權法",
+  "config": "設定/保險法.json"
+ },
+ "證券交易法": {
+  "short": "證交法",
+  "category": "04-商事法與智慧財產權法",
+  "config": "設定/證券交易法.json"
+ },
+ "憲法訴訟法": {
+  "short": "憲訴法",
+  "category": "01-公法",
+  "config": "設定/憲法訴訟法.json"
+ },
+ "行政程序法": {
+  "short": "行程法",
+  "category": "01-公法",
+  "config": "設定/行政程序法.json"
+ },
+ "行政訴訟法": {
+  "short": "行訴法",
+  "category": "01-公法",
+  "config": "設定/行政訴訟法.json"
+ },
+ "行政罰法": {
+  "short": "行政罰法",
+  "category": "01-公法",
+  "config": "設定/行政罰法.json"
+ },
+ "行政執行法": {
+  "short": "行執法",
+  "category": "01-公法",
+  "config": "設定/行政執行法.json"
+ },
+ "著作權法": {
+  "short": "著作法",
+  "category": "04-商事法與智慧財產權法",
+  "config": "設定/著作權法.json"
+ },
+ "商標法": {
+  "short": "商標法",
+  "category": "04-商事法與智慧財產權法",
+  "config": "設定/商標法.json"
+ },
+ "專利法": {
+  "short": "專利法",
+  "category": "04-商事法與智慧財產權法",
+  "config": "設定/專利法.json"
+ },
+ "司法院釋字第七四八號解釋施行法": {
+  "short": "同婚法",
+  "category": "02-民事法",
+  "config": "設定/司法院釋字第七四八號解釋施行法.json"
+ },
+ "國民法官法": {
+  "short": "國民法官法",
+  "category": "03-刑事法",
+  "config": "設定/國民法官法.json"
+ },
+ "通訊保障及監察法": {
+  "short": "通保法",
+  "category": "03-刑事法",
+  "config": "設定/通訊保障及監察法.json"
+ },
+ "國家賠償法": {
+  "short": "國賠法",
+  "category": "01-公法",
+  "config": "設定/國家賠償法.json"
+ }
+}

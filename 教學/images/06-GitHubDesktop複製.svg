@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="400" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">GitHub Desktop：File → Clone repository（示意圖）</text>
+  <rect x="30" y="60" width="820" height="320" rx="8" fill="#24292F"/>
+  <text x="440" y="96" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Clone a repository</text>
+  <text x="70" y="132" font-size="14" font-weight="bold" fill="#FFFFFF">GitHub.com</text>
+  <text x="200" y="132" font-size="14" fill="#8C959F">GitHub Enterprise</text>
+  <text x="380" y="132" font-size="14" fill="#8C959F">URL</text>
+  <line x1="60" y1="142" x2="160" y2="142" stroke="#0969DA" stroke-width="3"/>
+  <rect x="60" y="156" width="760" height="30" rx="4" fill="#32383F"/>
+  <text x="74" y="176" font-size="13" fill="#8C959F">Filter your repositories</text>
+  <rect x="60" y="194" width="760" height="32" rx="4" fill="#0969DA" stroke="#CF222E" stroke-width="2"/>
+  <text x="74" y="215" font-size="14" font-weight="bold" fill="#FFFFFF">🔒 你的帳號/my-law-vault</text>
+  <text x="640" y="215" font-size="13" font-weight="bold" fill="#FFF8C5">① 選你的私人庫</text>
+  <text x="60" y="262" font-size="14" fill="#FFFFFF">Local path</text>
+  <rect x="60" y="272" width="620" height="32" rx="4" fill="#32383F" stroke="#CF222E" stroke-width="2"/>
+  <text x="74" y="293" font-size="13" fill="#FFFFFF">C:\Users\&lt;你的名稱&gt;\Obsidian\my-law-vault</text>
+  <rect x="690" y="272" width="130" height="32" rx="4" fill="#3A4048"/>
+  <text x="755" y="293" text-anchor="middle" font-size="13" fill="#FFFFFF">Choose…</text>
+  <text x="60" y="324" font-size="13" font-weight="bold" fill="#FFB3B3">② 放在一般本機資料夾，不要放 OneDrive／iCloud／Dropbox／Google Drive 裡</text>
+  <rect x="700" y="340" width="120" height="30" rx="6" fill="#1F883D"/>
+  <text x="760" y="360" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Clone</text>
+</svg>

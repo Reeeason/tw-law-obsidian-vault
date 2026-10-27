@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="330" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">用 law-library Skill 新增一部法規的流程</text>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#57606A"/></marker></defs>
+  <g font-size="13" text-anchor="middle">
+    <rect x="30" y="70" width="190" height="80" rx="8" fill="#F6F8FA" stroke="#57606A"/>
+    <text x="125" y="100" font-weight="bold" fill="#1F2328">① 下載 Word 檔</text>
+    <text x="125" y="124" fill="#57606A">全國法規資料庫</text>
+    <text x="125" y="142" fill="#57606A">放進 tools/來源/</text>
+
+    <rect x="250" y="70" width="190" height="80" rx="8" fill="#DDF4FF" stroke="#0969DA"/>
+    <text x="345" y="100" font-weight="bold" fill="#0969DA">② 告訴 Claude</text>
+    <text x="345" y="124" fill="#1F2328">「把訴願法加到六法庫」</text>
+
+    <rect x="470" y="70" width="190" height="80" rx="8" fill="#F6F8FA" stroke="#57606A"/>
+    <text x="565" y="100" font-weight="bold" fill="#1F2328">③ 登錄＋scan</text>
+    <text x="565" y="124" fill="#57606A">列出要補的條名、</text>
+    <text x="565" y="142" fill="#57606A">外部引用條文</text>
+
+    <rect x="690" y="70" width="160" height="80" rx="8" fill="#F6F8FA" stroke="#57606A"/>
+    <text x="770" y="100" font-weight="bold" fill="#1F2328">④ check-ext</text>
+    <text x="770" y="124" fill="#57606A">外部條文與</text>
+    <text x="770" y="142" fill="#57606A">官網逐段比對</text>
+
+    <rect x="470" y="200" width="190" height="80" rx="8" fill="#F6F8FA" stroke="#57606A"/>
+    <text x="565" y="230" font-weight="bold" fill="#1F2328">⑤ dry-run 試跑</text>
+    <text x="565" y="254" fill="#57606A">核對必須「問題 0 項」</text>
+
+    <rect x="250" y="200" width="190" height="80" rx="8" fill="#DAFBE1" stroke="#1F883D"/>
+    <text x="345" y="230" font-weight="bold" fill="#1F883D">⑥ build 正式產生</text>
+    <text x="345" y="254" fill="#1F2328">逐條頁面＋法規總覽</text>
+
+    <rect x="30" y="200" width="190" height="80" rx="8" fill="#FFF8C5" stroke="#9A6700"/>
+    <text x="125" y="230" font-weight="bold" fill="#9A6700">⑦ 你檢查回報</text>
+    <text x="125" y="254" fill="#1F2328">自擬條名、核對結果</text>
+  </g>
+  <path d="M222 110 L244 110" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M442 110 L464 110" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M662 110 L684 110" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M770 152 L770 240 L666 240" stroke="#57606A" stroke-width="2" fill="none" marker-end="url(#m)"/>
+  <path d="M468 240 L446 240" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M248 240 L226 240" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <text x="30" y="312" font-size="13" fill="#57606A">條文只來自全國法規資料庫；修法時重跑 build，只更新條文區，你的筆記完整保留。</text>
+</svg>

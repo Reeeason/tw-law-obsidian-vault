@@ -1,0 +1,84 @@
+filters:
+  and:
+    - file.inFolder("分科六法整理")
+    - type == "法條"
+formulas:
+  exam_count: if(exams, exams.length, 0)
+properties:
+  file.name:
+    displayName: 條文
+  caption:
+    displayName: 條名
+  law_short:
+    displayName: 法規
+  chapter:
+    displayName: 章
+  status:
+    displayName: 效力
+  progress:
+    displayName: 整理進度
+  formula.exam_count:
+    displayName: 考試出現次數
+views:
+  - type: table
+    name: 全部條文
+    order:
+      - file.name
+      - caption
+      - chapter
+      - status
+      - progress
+      - formula.exam_count
+    sort:
+      - property: law_short
+        direction: ASC
+      - property: seq
+        direction: ASC
+  - type: table
+    name: 待整理
+    filters: progress == "未整理" && status != "已刪除"
+    order:
+      - file.name
+      - caption
+      - chapter
+    sort:
+      - property: law_short
+        direction: ASC
+      - property: seq
+        direction: ASC
+  - type: table
+    name: 整理中
+    filters: progress == "整理中"
+    order:
+      - file.name
+      - caption
+      - chapter
+      - formula.exam_count
+  - type: table
+    name: 考試熱門
+    filters: formula.exam_count > 0
+    order:
+      - file.name
+      - caption
+      - formula.exam_count
+      - progress
+    sort:
+      - property: formula.exam_count
+        direction: DESC
+  - type: table
+    name: 效力異動
+    filters: status != "現行" && status != "已刪除"
+    order:
+      - file.name
+      - caption
+      - status
+      - status_note
+  - type: table
+    name: 依整理進度分組
+    groupBy:
+      property: progress
+      direction: ASC
+    order:
+      - file.name
+      - caption
+      - chapter

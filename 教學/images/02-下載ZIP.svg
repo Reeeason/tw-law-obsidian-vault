@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="380" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">GitHub 儲存庫頁面：下載整個庫（示意圖）</text>
+  <!-- 頁首 -->
+  <rect x="30" y="60" width="820" height="44" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text x="48" y="88" font-size="15" fill="#1F2328">&lt;帳號&gt; / tw-law-obsidian-vault</text>
+  <rect x="300" y="72" width="54" height="22" rx="11" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="327" y="88" text-anchor="middle" font-size="12" fill="#57606A">Public</text>
+  <!-- 工具列 -->
+  <rect x="30" y="118" width="80" height="32" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text x="70" y="139" text-anchor="middle" font-size="14" fill="#1F2328">main ▾</text>
+  <rect x="560" y="118" width="150" height="32" rx="6" fill="#1F883D"/>
+  <text x="635" y="139" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Use this template ▾</text>
+  <rect x="722" y="118" width="96" height="32" rx="6" fill="#1F883D"/>
+  <text x="770" y="139" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">&lt;&gt; Code ▾</text>
+  <circle cx="770" cy="134" r="30" fill="none" stroke="#CF222E" stroke-width="3"/>
+  <text x="770" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#CF222E">① 點 Code</text>
+  <!-- 下拉 -->
+  <rect x="540" y="168" width="310" height="180" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="560" y="196" font-size="14" font-weight="bold" fill="#1F2328">Local</text>
+  <text x="560" y="224" font-size="13" fill="#57606A">Clone：HTTPS　SSH　GitHub CLI</text>
+  <rect x="560" y="236" width="270" height="28" rx="4" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text x="572" y="255" font-size="12" fill="#57606A">https://github.com/&lt;帳號&gt;/tw-law-obsidian-vault.git</text>
+  <text x="560" y="292" font-size="14" fill="#1F2328">Open with GitHub Desktop</text>
+  <rect x="552" y="306" width="286" height="32" rx="4" fill="#FFF8C5" stroke="#CF222E" stroke-width="2"/>
+  <text x="566" y="327" font-size="14" font-weight="bold" fill="#1F2328">Download ZIP</text>
+  <text x="300" y="327" font-size="15" font-weight="bold" fill="#CF222E">② 點 Download ZIP →</text>
+  <!-- 檔案列表 -->
+  <g font-size="14" fill="#1F2328">
+    <text x="48" y="190">📁 分科六法整理</text>
+    <text x="48" y="218">📁 99-範本</text>
+    <text x="48" y="246">📁 教學</text>
+    <text x="48" y="274">📁 tools</text>
+    <text x="48" y="302">📄 README.md</text>
+  </g>
+</svg>

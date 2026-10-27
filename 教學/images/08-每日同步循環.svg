@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="300" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">日常使用：Git 插件幫你做的事</text>
+  <defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#57606A"/></marker></defs>
+  <g font-size="14" text-anchor="middle">
+    <rect x="30" y="80" width="170" height="90" rx="10" fill="#DDF4FF" stroke="#0969DA"/>
+    <text x="115" y="112" font-weight="bold" fill="#0969DA">開啟 Obsidian</text>
+    <text x="115" y="138" fill="#1F2328">自動拉取（pull）</text>
+    <text x="115" y="158" fill="#57606A" font-size="12">取得其他電腦的改動</text>
+
+    <rect x="240" y="80" width="170" height="90" rx="10" fill="#F6F8FA" stroke="#57606A"/>
+    <text x="325" y="112" font-weight="bold" fill="#1F2328">寫筆記</text>
+    <text x="325" y="138" fill="#1F2328">照常編輯</text>
+
+    <rect x="450" y="80" width="190" height="90" rx="10" fill="#DAFBE1" stroke="#1F883D"/>
+    <text x="545" y="108" font-weight="bold" fill="#1F883D">每 10 分鐘自動</text>
+    <text x="545" y="134" fill="#1F2328">提交 → 拉取 → 推送</text>
+    <text x="545" y="156" fill="#57606A" font-size="12">commit → pull → push</text>
+
+    <rect x="680" y="80" width="170" height="90" rx="10" fill="#FFF8C5" stroke="#9A6700"/>
+    <text x="765" y="112" font-weight="bold" fill="#9A6700">換電腦前</text>
+    <text x="765" y="138" fill="#1F2328">按 Ctrl＋Alt＋S</text>
+    <text x="765" y="158" fill="#57606A" font-size="12">手動同步一次</text>
+  </g>
+  <path d="M202 125 L234 125" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M412 125 L444 125" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <path d="M642 125 L674 125" stroke="#57606A" stroke-width="2" marker-end="url(#m)"/>
+  <text x="30" y="220" font-size="14" fill="#1F2328">Git 是「版本控制」，不是即時同步：兩台電腦約每 10 分鐘交換一次版本。</text>
+  <text x="30" y="248" font-size="14" fill="#CF222E" font-weight="bold">不要讓兩台電腦同時開著編輯同一則筆記，否則會產生衝突（conflict）。</text>
+</svg>

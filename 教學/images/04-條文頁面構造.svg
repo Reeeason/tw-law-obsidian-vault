@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="560" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">一條一頁：頁面的三個區塊</text>
+
+  <!-- 屬性區 -->
+  <rect x="30" y="60" width="520" height="120" rx="8" fill="#F6F8FA" stroke="#57606A"/>
+  <text x="46" y="86" font-size="14" font-weight="bold" fill="#57606A">屬性區（Properties）</text>
+  <text x="46" y="110" font-size="13" fill="#1F2328">caption：普通殺人罪　　chapter：第二十二章 殺人罪</text>
+  <text x="46" y="132" font-size="13" fill="#1F2328">status：現行　　source：全國法規資料庫下載檔（日期）</text>
+  <text x="46" y="156" font-size="13" fill="#0969DA" font-weight="bold">progress：未整理　　exams：[ ]　← 這兩欄由你填</text>
+
+  <!-- 條文區 -->
+  <rect x="30" y="196" width="520" height="150" rx="8" fill="#FFF8C5" stroke="#9A6700" stroke-width="2"/>
+  <text x="46" y="222" font-size="14" font-weight="bold" fill="#9A6700">條文區（%% 條文區開始 … 條文區結束 %%）</text>
+  <text x="46" y="248" font-size="13" fill="#1F2328">← 第270條 ｜ 法規總覽 ｜ 第272條 →</text>
+  <rect x="46" y="260" width="488" height="72" rx="4" fill="#FFFFFF" stroke="#D4A72C"/>
+  <text x="58" y="284" font-size="13" fill="#1F2328">條文　殺人者，處死刑、無期徒刑或十年以上有期徒刑。</text>
+  <text x="58" y="306" font-size="13" fill="#1F2328">前項之未遂犯罰之。</text>
+  <text x="58" y="324" font-size="12" fill="#57606A">引用他條處自動變成連結，括號附條名</text>
+
+  <!-- 筆記區 -->
+  <rect x="30" y="362" width="520" height="176" rx="8" fill="#DAFBE1" stroke="#1F883D" stroke-width="2"/>
+  <text x="46" y="388" font-size="14" font-weight="bold" fill="#1F883D">筆記區（六個欄位＋相關條文與解釋）</text>
+  <g font-size="13" fill="#1F2328">
+    <text x="46" y="414">## 法條解析</text><text x="290" y="414">## 思考脈絡（可畫流程圖）</text>
+    <text x="46" y="440">## 實務見解</text><text x="290" y="440">## 爭點</text>
+    <text x="46" y="466">## 近年考試出現（表格）</text><text x="290" y="466">## 相關考題</text>
+    <text x="46" y="492">## 相關條文與解釋</text>
+  </g>
+  <text x="46" y="522" font-size="13" fill="#57606A">你的筆記寫在這裡，修法更新時腳本絕不改動</text>
+
+  <!-- 右側說明 -->
+  <g font-size="15">
+    <text x="580" y="128" fill="#57606A" font-weight="bold">系統欄位＋你的欄位</text>
+    <text x="580" y="152" fill="#1F2328" font-size="13">看板依這裡統計進度</text>
+    <text x="580" y="262" fill="#9A6700" font-weight="bold">⚠ 不要在這裡寫筆記</text>
+    <text x="580" y="286" fill="#1F2328" font-size="13">修法時腳本會整段覆寫</text>
+    <text x="580" y="308" fill="#1F2328" font-size="13">條文來自全國法規資料庫</text>
+    <text x="580" y="330" fill="#1F2328" font-size="13">（閱讀模式下看不到 %% 標記）</text>
+    <text x="580" y="440" fill="#1F883D" font-weight="bold">✎ 你的筆記區</text>
+    <text x="580" y="464" fill="#1F2328" font-size="13">更新條文時完整保留</text>
+  </g>
+</svg>

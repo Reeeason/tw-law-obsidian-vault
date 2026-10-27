@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="400" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="440" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1F2328">兩種用法：只下載使用，或用 Git 同步自己的版本</text>
+
+  <!-- 公開庫 -->
+  <rect x="330" y="70" width="220" height="86" rx="10" fill="#DDF4FF" stroke="#0969DA" stroke-width="2"/>
+  <text x="440" y="104" text-anchor="middle" font-size="18" font-weight="bold" fill="#0969DA">本公開儲存庫</text>
+  <text x="440" y="132" text-anchor="middle" font-size="14" fill="#1F2328">分科六法＋範本＋教學＋腳本</text>
+
+  <!-- 用法 A -->
+  <rect x="40" y="220" width="250" height="140" rx="10" fill="#F6F8FA" stroke="#57606A"/>
+  <text x="165" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F2328">用法 A：只想使用</text>
+  <text x="165" y="282" text-anchor="middle" font-size="14" fill="#1F2328">Download ZIP → 解壓縮</text>
+  <text x="165" y="306" text-anchor="middle" font-size="14" fill="#1F2328">→ Obsidian 開啟資料夾</text>
+  <text x="165" y="338" text-anchor="middle" font-size="13" fill="#57606A">不需要 GitHub 帳號</text>
+  <path d="M370 156 L200 214" stroke="#57606A" stroke-width="2" fill="none" marker-end="url(#a)"/>
+
+  <!-- 用法 B -->
+  <rect x="330" y="220" width="220" height="140" rx="10" fill="#DAFBE1" stroke="#1F883D" stroke-width="2"/>
+  <text x="440" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#1F883D">用法 B：同步與備份</text>
+  <text x="440" y="282" text-anchor="middle" font-size="14" fill="#1F2328">Use this template</text>
+  <text x="440" y="306" text-anchor="middle" font-size="14" fill="#1F2328">→ 你自己的私人儲存庫</text>
+  <text x="440" y="338" text-anchor="middle" font-size="13" fill="#57606A">保存每個版本、多台電腦同步</text>
+  <path d="M440 156 L440 214" stroke="#1F883D" stroke-width="2" fill="none" marker-end="url(#g)"/>
+
+  <!-- 電腦們 -->
+  <rect x="620" y="200" width="220" height="70" rx="10" fill="#FFFFFF" stroke="#1F883D"/>
+  <text x="730" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#1F2328">電腦 1：Obsidian</text>
+  <text x="730" y="254" text-anchor="middle" font-size="13" fill="#57606A">Git 插件每 10 分鐘同步</text>
+  <rect x="620" y="300" width="220" height="70" rx="10" fill="#FFFFFF" stroke="#1F883D"/>
+  <text x="730" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#1F2328">電腦 2：Obsidian</text>
+  <text x="730" y="354" text-anchor="middle" font-size="13" fill="#57606A">開啟時自動拉取最新版</text>
+  <path d="M552 270 L614 240" stroke="#1F883D" stroke-width="2" fill="none" marker-end="url(#g)" marker-start="url(#gs)"/>
+  <path d="M552 310 L614 334" stroke="#1F883D" stroke-width="2" fill="none" marker-end="url(#g)" marker-start="url(#gs)"/>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#57606A"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F883D"/></marker>
+    <marker id="gs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 0 L0 5 L10 10 z" fill="#1F883D"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" font-family="'Microsoft JhengHei','PingFang TC','Noto Sans TC',sans-serif">
+  <rect width="880" height="360" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="30" y="40" font-size="20" font-weight="bold" fill="#1F2328">Obsidian 的 Vault 選擇視窗（示意圖）</text>
+  <rect x="30" y="60" width="820" height="270" rx="10" fill="#202020"/>
+  <!-- 左側清單 -->
+  <rect x="30" y="60" width="240" height="270" rx="10" fill="#262626"/>
+  <text x="50" y="100" font-size="14" fill="#BBBBBB">最近開啟的 Vault</text>
+  <text x="50" y="130" font-size="14" fill="#888888">（第一次使用時是空的）</text>
+  <!-- 右側選項 -->
+  <text x="300" y="104" font-size="16" font-weight="bold" fill="#EEEEEE">Create new vault</text>
+  <text x="300" y="126" font-size="13" fill="#999999">建立全新的空白 Vault</text>
+  <rect x="740" y="92" width="90" height="30" rx="6" fill="#3A3A3A"/>
+  <text x="785" y="112" text-anchor="middle" font-size="14" fill="#EEEEEE">Create</text>
+
+  <rect x="290" y="146" width="550" height="64" rx="8" fill="#2E2A3A" stroke="#CF222E" stroke-width="3"/>
+  <text x="300" y="172" font-size="16" font-weight="bold" fill="#FFFFFF">Open folder as vault</text>
+  <text x="300" y="194" font-size="13" fill="#CCCCCC">選擇一個既有的資料夾當作 Vault</text>
+  <rect x="740" y="162" width="90" height="30" rx="6" fill="#7C3AED"/>
+  <text x="785" y="182" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Open</text>
+
+  <text x="300" y="244" font-size="16" font-weight="bold" fill="#EEEEEE">Open vault from Obsidian Sync</text>
+  <text x="300" y="266" font-size="13" fill="#999999">官方付費同步服務，本教學不使用</text>
+
+  <text x="300" y="312" font-size="15" font-weight="bold" fill="#FF8A8A">點 Open → 選解壓縮後的資料夾（看得到「分科六法整理」的那一層）</text>
+</svg>

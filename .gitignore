@@ -1,0 +1,31 @@
+# Obsidian 視窗版面配置（每台電腦不同，同步會一直衝突）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 回收桶
+.trash/
+
+# 系統檔
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Smart Connections 等插件產生的大型索引（若有安裝）
+.smart-env/
+.smart-connections/
+
+# Claude Code 的本機設定（含本機路徑與已授權指令）
+.claude/settings.local.json
+
+# 腳本試跑輸出（萬一寫進本庫）
+暫存/
+試跑暫存/
+
+# Python 編譯快取與虛擬環境
+__pycache__/
+*.pyc
+.venv/
+
+# 法規來源檔（全國法規資料庫下載的 Word 檔，各自下載即可，不必上傳）
+tools/來源/*
+!tools/來源/README.md
